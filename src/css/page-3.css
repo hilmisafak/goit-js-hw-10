@@ -1,0 +1,76 @@
+.snackbar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.form {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form input[type='number'] {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.form input[type='number']:focus {
+  border-color: #ff6b01;
+  outline: none;
+  box-shadow: 0 0 4px rgba(255, 107, 1, 0.3);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.form input[type='radio'] {
+  margin-right: 5px;
+}
+
+.form button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #ff6b01;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form button:hover {
+  background: #e85c00;
+  transform: translateY(-1px);
+}
+
+.form button:active {
+  transform: translateY(0);
+}
